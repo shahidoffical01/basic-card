@@ -1,0 +1,63 @@
+a:link {
+	color: red;
+	text-decoration: dotted;
+	font-size: 30px;
+}
+a:hover{
+	color: blue;
+}
+ a:active{
+ 	color: green;
+ }
+ a:visited{
+ 	color: black;
+ }
+
+#services {
+	background-image: url('../img/bac.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	padding: 1px;
+	text-align: center;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.ser-heading h1 {
+	margin-top: 10px;
+	font-size: 50px;
+	text-transform: capitalize;
+}
+.ser-heading p {
+	padding: 30px;
+}
+.ser-heading hr {
+	width: 250px;
+}
+.web {
+	margin-right:40px;
+	width: 270px;
+	float: left;
+	margin: 20px;
+	border: 1px solid white;
+	background-position: center;
+}
+.android {
+	width: 270px;
+	float: left;
+	margin: 20px;
+	border: 1px solid white;
+	background-position: center;
+}
+
+.ui {
+	width: 270px;
+	float: left;
+	margin: 20px;
+	border: 1px solid white;
+	background-position: center;
+}
+
